@@ -8,11 +8,22 @@ Unzip vendor dir inside ig-session
 ```
 unzip vendor
 ```
-Install a package
+Packages Required (Termux)
 ```
 pkg install bzip2 (for Termux)
 sudo apt install php-bz2 (for other linux)
 ```
+Packages Required (Linux)
+```
+sudo apt install php-bz2
+sudo apt install php-curl
+sudo apt install php-mbstring
+sudo apt install php-gd
+sudo apt install php-gd2
+```
+[->] Also Enable All Above Extensions in '/etc/php/{VERSION}/cli/php.ini' file
+(Screenshots will be given below)
+
 Run Xtreak-Token.php
 ```
 php xtreak-token.php
@@ -27,3 +38,4 @@ This tool simply login with your Credentials using Mgp25 Library and Save the se
 
 ### Screenshot
 <img src="img.png">
+<img src="img1.png">
