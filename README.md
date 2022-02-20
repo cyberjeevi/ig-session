@@ -39,3 +39,10 @@ This tool simply login with your Credentials using Mgp25 Library and Save the se
 ### Screenshot
 <img src="img.png">
 <img src="img1.png">
+
+
+
+
+### Troubleshooting 
+sudo apt install  libpcre2-8-0
+sudo apt install  apache2
